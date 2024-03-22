@@ -1,0 +1,9 @@
+services:
+  chat_bot:
+    build: .
+    volumes:
+      - type: bind
+        source: ./.kb
+        target: /.kb
+    ports:
+      - "8000:8501"
