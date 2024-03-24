@@ -7,7 +7,6 @@ from PIL import Image
 from llama_index.llms.openai import OpenAI
 from llama_index.core.llms import ChatMessage, MessageRole
 from llama_index.core import ChatPromptTemplate, load_index_from_storage, Settings, SimpleDirectoryReader, StorageContext, VectorStoreIndex
-from llama_index.readers.smart_pdf_loader import SmartPDFLoader
 
 from tools_chataro import CustomPrompt, ChataroBot
 from tools_general import Categorize, GetIndex

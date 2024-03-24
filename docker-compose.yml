@@ -3,7 +3,7 @@ services:
     build: .
     volumes:
       - type: bind
-        source: ./.kb
-        target: /.kb
+        source: ./storage
+        target: /storage
     ports:
       - "8000:8501"
