@@ -6,4 +6,4 @@ services:
         source: ./storage
         target: /storage
     ports:
-      - "8051:8051"
+      - "8000:8501"
